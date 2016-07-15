@@ -15,22 +15,24 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "WechatSDK"
+  s.name         = "WeChat_SDK"
   s.version      = "1.7.2"
-  s.summary      = "Tencent Wechat iOS SDK."
+  s.summary      = "Tencent WeChat iOS SDK."
 
   s.homepage     = "https://open.weixin.qq.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   s.license      = "MIT"
 
-  s.author             = { "littleSun" => "noah_nj@163.com" }
+  s.author = { "Tencent" => "https://open.weixin.qq.com" }
 
   # s.platform     = :ios
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.2.zip", :tag => s.version }
-
+  s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.2.zip" }
+  s.source_files = "**/*.{h,m,a}"
+  # s.vendored_libraries = "**/libWeChatSDK.a"
+  s.libraries = "z", "sqlite3.0", "c++"
   s.requires_arc = true
 
 end
