@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.2.zip" }
   s.source_files = "**/*.{h,m,a}"
   # s.vendored_libraries = "**/libWeChatSDK.a"
-  s.libraries = "z", "sqlite3.0", "c++"
+  s.libraries = "z", "sqlite3", "c++"
   s.requires_arc = true
 
 end
