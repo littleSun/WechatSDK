@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WeChat_SDK"
-  s.version      = "1.7.2.1"
+  s.version      = "1.7.5.1"
   s.summary      = "Tencent WeChat iOS SDK."
 
   s.homepage     = "https://open.weixin.qq.com"
@@ -29,13 +29,13 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.2.zip" }
+  s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.5.zip" }
   s.source_files = "**/*.{h,m}"
   s.public_header_files = "**/*.h"
   s.vendored_libraries = "**/*.a"
   s.frameworks = "Security","SystemConfiguration","CoreTelephony"
   s.libraries = "z", "sqlite3.0", "c++"
   s.requires_arc = true
-  s.xcconfig = "\"$(PODS_ROOT)/WeChatSDK/**\""
+  # s.xcconfig = "$(PODS_ROOT)/WeChatSDK/**"
 
 end
