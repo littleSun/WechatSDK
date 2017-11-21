@@ -29,7 +29,9 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "https://github.com/littleSun/WechatSDK/OpenSDK1.8.1" }
+  #s.source       = { :http => "https://github.com/littleSun/WechatSDK/OpenSDK1.8.1" }
+  s.source       = { :git => "https://github.com/littleSun/WechatSDK.git", :tag => "#{s.version}" }
+
   s.source_files = "**/*.{h,m}"
   s.public_header_files = "**/*.h"
   s.vendored_libraries = "**/*.a"
