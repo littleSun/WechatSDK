@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WeChat_SDK"
-  s.version      = "1.7.5.1"
+  s.version      = "1.8.1"
   s.summary      = "Tencent WeChat iOS SDK."
 
   s.homepage     = "https://open.weixin.qq.com"
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.5.zip" }
+  s.source       = { :http => "https://res.wx.qq.com/op_res/qNjut2h9J8oE9o2zeJTAYdCTgB7hM5pHAkJz1rNNCOnSyKA2bwzBv3fQILqbD_c1" }
   s.source_files = "**/*.{h,m}"
   s.public_header_files = "**/*.h"
   s.vendored_libraries = "**/*.a"
