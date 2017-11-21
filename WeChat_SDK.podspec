@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint AES128Helper.podspec' to ensure this is a
+#  Be sure to run `pod spec lint WeChat_SDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "https://res.wx.qq.com/op_res/qNjut2h9J8oE9o2zeJTAYdCTgB7hM5pHAkJz1rNNCOnSyKA2bwzBv3fQILqbD_c1" }
+  s.source       = { :http => "https://github.com/littleSun/WechatSDK/OpenSDK1.8.1" }
   s.source_files = "**/*.{h,m}"
   s.public_header_files = "**/*.h"
   s.vendored_libraries = "**/*.a"
